@@ -1,5 +1,9 @@
 package com.example.apple.coolweather.util;
 
+import android.content.Context;
+
+import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -51,4 +55,6 @@ public class HttpUtil {
 
         void onError(Exception e);
     }
+
+
 }
